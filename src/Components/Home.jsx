@@ -26,6 +26,12 @@ const imageAltText =
   "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
 
 const Home = ({ name, title }) => {
+  // Function to scroll to the "portfolio" section
+  function scrollToPortfolio() {
+    const portfolioSection = document.getElementById("portfolio");
+    portfolioSection.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
     <section id="home" className="min-height">
       <img className="background" src={image} alt="" />
@@ -33,13 +39,24 @@ const Home = ({ name, title }) => {
         <h1>{name}</h1>
         <h2>{title}</h2>
       </div>
-      <div
-        style={{ position: "absolute", bottom: "3rem", left: "50%", transform: "translateX(-50%)" }}
+      <button
+        style={{
+          position: "absolute",
+          bottom: "3rem",
+          left: "50%",
+          transform: "translateX(-50%)",
+          background: "none", // Make the button background transparent
+          border: "none", // Remove the border
+          outline: "none", // Remove the outline to ensure it's fully transparent when focused
+          padding: 0, // Remove any padding
+          cursor: "pointer", // Optional: Change the cursor to pointer to indicate it's clickable
+        }}
+        onClick={scrollToPortfolio}
+        onKeyDown={scrollToPortfolio}
+        tabIndex={0}
       >
-        <button style={{ background: "none", border: "none", padding: 0, cursor: "pointer" }}>
-          <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
-        </button>
-      </div>
+        <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+      </button>
     </section>
   );
 };
