@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Profile Website of Alhaarith Hakkim",
   "source": "src/index.html",
-  "homepage": "http://allhaarithh.github.io/Profile",
+  "homepage": "http://allhaarithh.github.io/ProfileWebApp",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
