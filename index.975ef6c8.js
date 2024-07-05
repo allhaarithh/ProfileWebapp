@@ -28626,6 +28626,13 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _womanWithTabletJpgDefault = parcelHelpers.interopDefault(_womanWithTabletJpg);
 const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
 const Home = ({ name , title  })=>{
+    // Function to scroll to the "portfolio" section
+    function scrollToPortfolio() {
+        const portfolioSection = document.getElementById("portfolio");
+        portfolioSection.scrollIntoView({
+            behavior: "smooth"
+        });
+    }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "home",
         className: "min-height",
@@ -28636,7 +28643,7 @@ const Home = ({ name , title  })=>{
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 31,
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28651,62 +28658,58 @@ const Home = ({ name , title  })=>{
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 33,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 34,
+                        lineNumber: 40,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 32,
+                lineNumber: 38,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                 style: {
                     position: "absolute",
                     bottom: "3rem",
                     left: "50%",
-                    transform: "translateX(-50%)"
+                    transform: "translateX(-50%)",
+                    background: "none",
+                    border: "none",
+                    outline: "none",
+                    padding: 0,
+                    cursor: "pointer"
                 },
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                onClick: scrollToPortfolio,
+                onKeyDown: scrollToPortfolio,
+                tabIndex: 0,
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: (0, _downArrowSvgDefault.default),
                     style: {
-                        background: "none",
-                        border: "none",
-                        padding: 0,
-                        cursor: "pointer"
+                        height: "3rem",
+                        width: "3rem"
                     },
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _downArrowSvgDefault.default),
-                        style: {
-                            height: "3rem",
-                            width: "3rem"
-                        },
-                        alt: imageAltText
-                    }, void 0, false, {
-                        fileName: "src/Components/Home.jsx",
-                        lineNumber: 40,
-                        columnNumber: 11
-                    }, undefined)
+                    alt: imageAltText
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 39,
+                    lineNumber: 58,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 36,
+                lineNumber: 42,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Home.jsx",
-        lineNumber: 30,
+        lineNumber: 36,
         columnNumber: 5
     }, undefined);
 };
