@@ -27,7 +27,16 @@
       ],
       "settings": {
         "emmet.includeLanguages": {
-          "javascript": "javascriptreact"
+          "javascript": "javascriptreact",
+          "ejs": "html",
+          "handlebars": "html",
+          "php": "html",
+          "erb": "html",
+          "plaintext": "jade",
+          "markdown": "jade",
+          "vue-html": "html",
+          "razor": "html",
+          "HTML (EEx)": "html"
         },
         "emmet.triggerExpansionOnTab": true
       }
