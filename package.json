@@ -1,13 +1,13 @@
 {
   "name": "educator-js-codespace-template",
   "version": "1.0.0",
-  "description": "Profile Website of Alhaarith Hakkim",
+  "description": "Educator template for JavaScript Codespaces",
   "source": "src/index.html",
-  "homepage": "http://allhaarithh.github.io/ProfileWebApp",
+  "homepage": "http://allhaarithh.github.io/ProfileWebapp",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://allhaarithh.github.io/ProfileWebApp'",
+    "build-gh": "parcel build --public-url 'https://allhaarithh.github.io/ProfileWebapp'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
