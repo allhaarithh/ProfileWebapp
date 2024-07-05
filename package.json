@@ -1,7 +1,7 @@
 {
-  "name": "educator-js-codespace-template",
+  "name": "profile-webapp",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "Profile Website of Alhaarith Hakkim",
   "source": "src/index.html",
   "homepage": "http://allhaarithh.github.io/Profile",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
+    "url": "git+https://github.com/allhaarithh/ProfileWebapp"
   },
   "author": "Microsoft",
   "license": "ISC",
