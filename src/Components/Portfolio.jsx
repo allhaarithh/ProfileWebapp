@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "HydroTrack",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "HydroTrack is a cutting-edge water resource management system that provides real-time insights and analytics for efficient water usage, conservation, and allocation. With HydroTrack, users can monitor consumption, identify conservation opportunities, optimize resource allocation, and promote sustainability. Join us in revolutionizing water management with HydroTrack!.",
+    url: "https://github.com/gopiikaaa/HydroTrack",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Google Colab Notebooks",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This repository contains comprehensive code for training a regression model to predict car mileage. Leveraging powerful machine learning libraries, it guides you through data preprocessing, model training, and evaluation. Ideal for anyone looking to understand and implement mileage prediction models efficiently.",
+    url: "https://github.com/allhaarithh/Internship-Submission",
   },
   {
-    title: "My Resume Site",
+    title: "My Portfolio Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "To-Do Web App",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "My web app, built with React, MongoDB, and JWT, offers a seamless and secure user experience. React ensures a dynamic and responsive interface, MongoDB provides robust data management, and JWT guarantees secure authentication. Enjoy a fast, reliable, and protected service for all your web needs.",
+    url: "https://github.com/allhaarithh/ToDo-App",
   },
 ];
 

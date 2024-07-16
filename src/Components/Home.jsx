@@ -20,10 +20,10 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/HomeBackground.jpg";
+import image from "../images/BehanceBanner.png";
 
 const imageAltText =
-  "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
+  "A picture with a gradient overlay showcasing best grahpic design work of Alhaarith";
 
 const Home = ({ name, title }) => {
   // Function to scroll to the "portfolio" section
@@ -35,6 +35,18 @@ const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
       <img className="background" src={image} alt="" />
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          background:
+            "linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%)",
+          pointerEvents: "none", // This makes sure the overlay doesn't interfere with clicks
+        }}
+      ></div>
       <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
         <h1>{name}</h1>
         <h2>{title}</h2>
@@ -55,7 +67,11 @@ const Home = ({ name, title }) => {
         onKeyDown={scrollToPortfolio}
         tabIndex={0}
       >
-        <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+        <img
+          src={arrowSvg}
+          style={{ height: "3rem", width: "3rem", filter: "brightness(0) invert(1)" }}
+          alt={imageAltText}
+        />
       </button>
     </section>
   );
