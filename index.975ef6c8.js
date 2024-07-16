@@ -7193,9 +7193,9 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _womanWithTabletJpg = require("../images/woman-with-tablet.jpg");
-var _womanWithTabletJpgDefault = parcelHelpers.interopDefault(_womanWithTabletJpg);
-const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
+ */ var _behanceBannerPng = require("../images/BehanceBanner.png");
+var _behanceBannerPngDefault = parcelHelpers.interopDefault(_behanceBannerPng);
+const imageAltText = "A picture with a gradient overlay showcasing best grahpic design work of Alhaarith";
 const Home = ({ name , title  })=>{
     // Function to scroll to the "portfolio" section
     function scrollToPortfolio() {
@@ -7210,11 +7210,26 @@ const Home = ({ name , title  })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _womanWithTabletJpgDefault.default),
+                src: (0, _behanceBannerPngDefault.default),
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
                 lineNumber: 37,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: "100%",
+                    background: "linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%)",
+                    pointerEvents: "none"
+                }
+            }, void 0, false, {
+                fileName: "src/Components/Home.jsx",
+                lineNumber: 38,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -7229,20 +7244,20 @@ const Home = ({ name , title  })=>{
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 39,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 40,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 38,
+                lineNumber: 50,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -7264,17 +7279,18 @@ const Home = ({ name , title  })=>{
                     src: (0, _downArrowSvgDefault.default),
                     style: {
                         height: "3rem",
-                        width: "3rem"
+                        width: "3rem",
+                        filter: "brightness(0) invert(1)"
                     },
                     alt: imageAltText
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 58,
+                    lineNumber: 70,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 42,
+                lineNumber: 54,
                 columnNumber: 7
             }, undefined)
         ]
@@ -7302,11 +7318,11 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../images/woman-with-tablet.jpg":"bEltf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/BehanceBanner.png":"azd8k"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"bEltf":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "woman-with-tablet.b3bf1156.jpg" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"azd8k":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "BehanceBanner.f96aaab1.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lCaEt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ed0d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -7346,24 +7362,24 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
-        title: "10 Things To Know About Azure Static Web Apps \uD83C\uDF89",
-        description: "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-        url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
+        title: "HydroTrack",
+        description: "HydroTrack is a cutting-edge water resource management system that provides real-time insights and analytics for efficient water usage, conservation, and allocation. With HydroTrack, users can monitor consumption, identify conservation opportunities, optimize resource allocation, and promote sustainability. Join us in revolutionizing water management with HydroTrack!.",
+        url: "https://github.com/gopiikaaa/HydroTrack"
     },
     {
-        title: "Web Development for Beginners",
-        description: "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-        url: "https://github.com/microsoft/web-dev-for-beginners"
+        title: "Google Colab Notebooks",
+        description: "This repository contains comprehensive code for training a regression model to predict car mileage. Leveraging powerful machine learning libraries, it guides you through data preprocessing, model training, and evaluation. Ideal for anyone looking to understand and implement mileage prediction models efficiently.",
+        url: "https://github.com/allhaarithh/Internship-Submission"
     },
     {
-        title: "My Resume Site",
+        title: "My Portfolio Site",
         description: "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
         url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
     },
     {
-        title: "GitHub Codespaces and github.dev",
-        description: "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-        url: "https://www.youtube.com/watch?v=c3hHhRME_XI"
+        title: "To-Do Web App",
+        description: "My web app, built with React, MongoDB, and JWT, offers a seamless and secure user experience. React ensures a dynamic and responsive interface, MongoDB provides robust data management, and JWT guarantees secure authentication. Enjoy a fast, reliable, and protected service for all your web needs.",
+        url: "https://github.com/allhaarithh/ToDo-App"
     }, 
 ];
 const Portfolio = ()=>{
